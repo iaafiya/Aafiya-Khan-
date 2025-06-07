@@ -1,82 +1,79 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-font-family: Arial, Helvetica, sans-serif;
-background-color: #141414;
-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #141414;
+  color: #fff;
 }
 
-
-navbar {
-position: fixed;
-top: 0;
-width: 100%;
-padding: 20px 60px;
-display: flex;
-align-items: center;
-justify-content: space-between;
+/* Corrected from 'navbar' to '.navbar' (class selector) */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  z-index: 100;
+  transition: background-color 0.3s;
 }
 
-navbar {
-position: fixed;
-top: 0;
-width: 100%;
-padding: 20px 60px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-background: linear-gradient(
-to bottom,
-☐ rgba(0, 0, 0, 0.7) 0%,
-☐ rgba(0, 0, 0, 0) 100%
-);
-z-index: 100;
-transition: background-color 0.3s;
+/* Optional: solid background fallback */
+.navbar.scrolled {
+  background-color: #141414;
 }
 
-navbar {
-background-color: #141414;
+/* Corrected from 'logo' to '.logo' */
+.logo {
+  height: 25px;
+  cursor: pointer;
 }
 
-logo {
-height: 25px;
-cursor: pointer;
+/* Corrected from 'navbar-nav' to '.navbar-nav' */
+.navbar-nav {
+  display: flex;
+  gap: 20px;
 }
 
-navbar-nav {
-display: flex;
-gap: 20px;
-}
-
+/* Corrected from 'nav-link' to '.nav-link' */
 .nav-link {
-color: #e5e5e5;
-text-decoration: none;
-font-size: 14px;
-transition: color 0.3s;
+  color: #e5e5e5;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
 }
 
-nav-link:hover {
-color: #b3b3b3;
+.nav-link:hover {
+  color: #b3b3b3;
 }
 
-navbar-right {
-display: flex;
-align-items: center;
-gap: 20px;
-Feedback
-navbar-right i {
-font-size: 20px;
-cursor: pointer;
+/* Corrected from 'navbar-right' to '.navbar-right' */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-profile-icon {
-width: 32px;
-height:
-32px;
-border-radius: 5px;
-cursor: pointer;
+/* Corrected from 'navbar-right i' to '.navbar-right i' */
+.navbar-right i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Corrected from 'profile-icon' to '.profile-icon' */
+.profile-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  cursor: pointer;
 }
