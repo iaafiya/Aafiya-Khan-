@@ -10,7 +10,6 @@ background-color: #141414;
 color: #fff;
 }
 
-/ Navbar styling */
 
 navbar {
 position: fixed;
@@ -80,4 +79,5 @@ height:
 32px;
 border-radius: 5px;
 cursor: pointer;
+}
 }
