@@ -23,7 +23,7 @@ body {
 }
 
 .logo {
-  height: 25px;
+  height: 30px;
   cursor: pointer;
 }
 
@@ -34,8 +34,8 @@ body {
 
 .nav-link {
   color: #e5e5e5;
-  text-decoration: none;
   font-size: 14px;
+  text-decoration: none;
 }
 
 .nav-link:hover {
@@ -64,7 +64,8 @@ body {
 header.hero {
   height: 80vh;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
-              url('https://images.unsplash.com/photo-1614850523457-6cf2f6dfc52d?auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+              url('https://i.imgur.com/WUvTg0w.jpg') center/cover no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -101,11 +102,11 @@ header.hero {
   display: flex;
   align-items: center;
   gap: 8px;
-  transition: all 0.3s ease;
+  transition: all 0.2s;
 }
 
 .btn-play:hover {
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .btn-more-info:hover {
