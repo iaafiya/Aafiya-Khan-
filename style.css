@@ -54,7 +54,7 @@ body {
 .hero {
   height: 80vh;
   background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8)),
-              url(stranger-things.jpg) center/cover no-repeat;
+              url('https://i.pinimg.com/originals/e7/8a/9e/e78a9e015c54e3a2fae4a08690c54f64.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: flex-start;
