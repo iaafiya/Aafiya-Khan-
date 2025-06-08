@@ -3,11 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #141414;
   color: #fff;
 }
+
 .navbar {
   position: fixed;
   top: 0;
@@ -19,63 +21,76 @@ body {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
   z-index: 100;
 }
+
 .logo {
   height: 25px;
   cursor: pointer;
 }
+
 .navbar-nav {
   display: flex;
   gap: 20px;
 }
+
 .nav-link {
   color: #e5e5e5;
   text-decoration: none;
   font-size: 14px;
 }
+
 .nav-link:hover {
   color: #b3b3b3;
 }
+
 .navbar-right {
   display: flex;
   align-items: center;
   gap: 20px;
 }
+
 .navbar-right i {
   font-size: 20px;
   cursor: pointer;
 }
+
 .profile-icon {
   width: 32px;
   height: 32px;
   border-radius: 5px;
   cursor: pointer;
 }
+
 /* Hero Section */
-.hero {
+header.hero {
   height: 80vh;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8)),
-              url('https://i.pinimg.com/originals/e7/8a/9e/e78a9e015c54e3a2fae4a08690c54f64.jpg') center/cover no-repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+              url('https://wallpapercave.com/wp/wp6340223.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding: 0 60px;
 }
+
 .hero-content {
   max-width: 600px;
 }
+
 .hero-title {
   font-size: 48px;
   margin-bottom: 16px;
 }
+
 .hero-description {
   font-size: 18px;
   margin-bottom: 24px;
   color: #e5e5e5;
 }
+
 .hero-button {
   display: flex;
   gap: 16px;
 }
+
 .btn {
   padding: 10px 20px;
   background-color: #fff;
@@ -88,9 +103,11 @@ body {
   gap: 8px;
   transition: all 0.3s ease;
 }
+
 .btn-play:hover {
   background-color: rgba(255, 255, 255, 0.75);
 }
+
 .btn-more-info:hover {
   background-color: rgba(109, 109, 110, 0.4);
 }
