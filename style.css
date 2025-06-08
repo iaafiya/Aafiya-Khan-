@@ -63,8 +63,9 @@ body {
 /* Hero Section */
 header.hero {
   height: 80vh;
+  /* Corrected line: Changed the image URL to a Money Heist background image */
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
-              url('stranger-things.jpg') center/cover no-repeat;
+              url('https://www.themoviedb.org/t/p/original/rJqYyC1fR2c9cRj4M8p2k5k6wWj.jpg') center/cover no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
